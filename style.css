@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  nav {
+    width: 100%;
+    height: 90px;
+    /* position: fixed; */
+    height: 90px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.16);
+  }
+  .hero img {
+    position: absolute;
+    width: 125px;
+    height: 62px;
+    left: 40px;
+    top: 20px;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .risk img {
+    width: 810px;
+    height: 85vh;
+  }
+  
+  #frm {
+    width: 370px;
+    height: 450px;
+    right: 135px;
+    top: 146px;
+    background-color: #e5e2e2;
+  
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-left: 90px;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: flex;
+    color: black;
+    margin-top: 24px;
+    font-size: 1rem;
+    font-weight: 800;
+    margin-left: 100px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: right;
+    padding-right: 3rem;
+    padding-top: 1rem;
+  }
+  .inp {
+    padding: 30px;
+    margin-top: -50px;
+  }
+  
+  .inpp {
+    padding: 30px;
+  }
+  .inp input {
+    width: 300px;
+    margin-top: 20px;
+    padding: 8px;
+  }
+
+  .inpp input {
+    width: 300px;
+    margin-top: 7px;
+    padding: 8px;
+  }
+  
+
+  .labeltwo {
+    margin-top: 20px;
+    font-weight: 20px;
+  }
+
+  .labeltwo label  {
+   
+    font-weight: bold;
+  }
+
+  .par {
+    margin-top: 20px;
+  }
+  .parr {
+    margin-top: 20px;
+  }
+  .head {
+    padding: 30px;
+  }
+  button {
+    background-color: rgb(190, 7, 14);
+    border: none;
+    padding: 8px;
+    width: 300px;
+    color: white;
+    margin-left: 26px;
+  }
+  
+  #check svg {
+    margin-left: 90px;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  #close svg {
+    margin-left: 90px;
+    margin-top: 20px;
+    display: none;
+  }
+  
+  #comm {
+    color: green;
+  }
+  
+  #frm2 {
+    width: 370px;
+    height: 450px;
+    right: 135px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: -500px;
+  }
+  
+  #comm {
+    color: black;
+  }
+  .display-none {
+    display: none;
+  }
+  
+  #printname {
+    color: green;
+  }
+  
+  #second-comment {
+    margin-top: -10px;
+  }
+  
